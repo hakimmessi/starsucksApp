@@ -6,6 +6,7 @@ plugins {
 android {
     namespace = "com.st10082700.starsucks"
     compileSdk = 34
+    viewBinding.enable = true
 
     defaultConfig {
         applicationId = "com.st10082700.starsucks"
