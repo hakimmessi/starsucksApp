@@ -10,4 +10,5 @@
 
     <!-- Adding the new colour. -->
     <color name="starbucksGreen"> #00704A </color>
+    <color name="starsucksRed"> #FF0000 </color>
 </resources>
