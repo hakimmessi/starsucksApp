@@ -8,6 +8,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.st10082700.starsucks.databinding.ActivityMainBinding
 import android.widget.Toast
+import com.st10082700.starsucks.databinding.ActivityMainWithNavDrawerBinding
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
 
@@ -16,7 +17,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val binding = ActivityMainBinding.inflate(layoutInflater)
+        val binding = ActivityMainWithNavDrawerBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         binding.imgSb1.setOnClickListener(this)
